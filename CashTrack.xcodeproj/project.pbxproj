@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B9719FC29399FC0006D042A /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9719FB29399FC0006D042A /* AddTransactionView.swift */; };
+		8B9719FD29399FC0006D042A /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9719FB29399FC0006D042A /* AddTransactionView.swift */; };
+		8BEF9AB4292079F0002BB5AF /* CashTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA4292079EC002BB5AF /* CashTrackApp.swift */; };
+		8BEF9AB5292079F0002BB5AF /* CashTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA4292079EC002BB5AF /* CashTrackApp.swift */; };
+		8BEF9AB6292079F0002BB5AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA5292079EC002BB5AF /* ContentView.swift */; };
+		8BEF9AB7292079F0002BB5AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA5292079EC002BB5AF /* ContentView.swift */; };
+		8BEF9AB8292079F0002BB5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA6292079EF002BB5AF /* Assets.xcassets */; };
+		8BEF9AB9292079F0002BB5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEF9AA6292079EF002BB5AF /* Assets.xcassets */; };
+		8BEF9AC329207DE1002BB5AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AC229207DE1002BB5AF /* Extensions.swift */; };
+		8BEF9AC429207DE1002BB5AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AC229207DE1002BB5AF /* Extensions.swift */; };
+		8BEF9AC629208436002BB5AF /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AC529208436002BB5AF /* TransactionModel.swift */; };
+		8BEF9AC729208436002BB5AF /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AC529208436002BB5AF /* TransactionModel.swift */; };
+		8BEF9ACD2920867C002BB5AF /* Preview Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9ACC2920867C002BB5AF /* Preview Data.swift */; };
+		8BEF9ACE2920867C002BB5AF /* Preview Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9ACC2920867C002BB5AF /* Preview Data.swift */; };
+		8BEF9AD329208975002BB5AF /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AD229208975002BB5AF /* TransactionRow.swift */; };
+		8BEF9AD429208975002BB5AF /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AD229208975002BB5AF /* TransactionRow.swift */; };
+		8BEF9AD729209370002BB5AF /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 8BEF9AD629209370002BB5AF /* SwiftUIFontIcon */; };
+		8BEF9AD92920952A002BB5AF /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AD82920952A002BB5AF /* TransactionListViewModel.swift */; };
+		8BEF9ADA2920952A002BB5AF /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9AD82920952A002BB5AF /* TransactionListViewModel.swift */; };
+		8BEF9ADC29209DC3002BB5AF /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9ADB29209DC3002BB5AF /* navBar.swift */; };
+		8BEF9ADD29209DC3002BB5AF /* navBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF9ADB29209DC3002BB5AF /* navBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B9719FB29399FC0006D042A /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		8BEF9AA4292079EC002BB5AF /* CashTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashTrackApp.swift; sourceTree = "<group>"; };
+		8BEF9AA5292079EC002BB5AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BEF9AA6292079EF002BB5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEF9AAB292079F0002BB5AF /* CashTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEF9AB1292079F0002BB5AF /* CashTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEF9AB3292079F0002BB5AF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8BEF9AC229207DE1002BB5AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BEF9AC529208436002BB5AF /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		8BEF9ACC2920867C002BB5AF /* Preview Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview Data.swift"; sourceTree = "<group>"; };
+		8BEF9AD229208975002BB5AF /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionRow.swift; path = ../TransactionRow.swift; sourceTree = "<group>"; };
+		8BEF9AD82920952A002BB5AF /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		8BEF9ADB29209DC3002BB5AF /* navBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEF9AA8292079F0002BB5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEF9AD729209370002BB5AF /* SwiftUIFontIcon in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEF9AAE292079F0002BB5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEF9A9E292079EC002BB5AF = {
+			isa = PBXGroup;
+			children = (
+				8BEF9AA3292079EC002BB5AF /* Shared */,
+				8BEF9AB2292079F0002BB5AF /* macOS */,
+				8BEF9AAC292079F0002BB5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEF9AA3292079EC002BB5AF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF9AA4292079EC002BB5AF /* CashTrackApp.swift */,
+				8BEF9AA5292079EC002BB5AF /* ContentView.swift */,
+				8BEF9AD229208975002BB5AF /* TransactionRow.swift */,
+				8BEF9ADB29209DC3002BB5AF /* navBar.swift */,
+				8BEF9AD82920952A002BB5AF /* TransactionListViewModel.swift */,
+				8BEF9AC529208436002BB5AF /* TransactionModel.swift */,
+				8BEF9AC229207DE1002BB5AF /* Extensions.swift */,
+				8B9719FB29399FC0006D042A /* AddTransactionView.swift */,
+				8BEF9AA6292079EF002BB5AF /* Assets.xcassets */,
+				8BEF9AC8292085B6002BB5AF /* Preview Content */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8BEF9AAC292079F0002BB5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF9AAB292079F0002BB5AF /* CashTrack.app */,
+				8BEF9AB1292079F0002BB5AF /* CashTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEF9AB2292079F0002BB5AF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF9AB3292079F0002BB5AF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		8BEF9AC8292085B6002BB5AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF9ACC2920867C002BB5AF /* Preview Data.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEF9AAA292079F0002BB5AF /* CashTrack (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEF9ABC292079F0002BB5AF /* Build configuration list for PBXNativeTarget "CashTrack (iOS)" */;
+			buildPhases = (
+				8BEF9AA7292079F0002BB5AF /* Sources */,
+				8BEF9AA8292079F0002BB5AF /* Frameworks */,
+				8BEF9AA9292079F0002BB5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashTrack (iOS)";
+			packageProductDependencies = (
+				8BEF9AD629209370002BB5AF /* SwiftUIFontIcon */,
+			);
+			productName = "CashTrack (iOS)";
+			productReference = 8BEF9AAB292079F0002BB5AF /* CashTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEF9AB0292079F0002BB5AF /* CashTrack (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEF9ABF292079F0002BB5AF /* Build configuration list for PBXNativeTarget "CashTrack (macOS)" */;
+			buildPhases = (
+				8BEF9AAD292079F0002BB5AF /* Sources */,
+				8BEF9AAE292079F0002BB5AF /* Frameworks */,
+				8BEF9AAF292079F0002BB5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CashTrack (macOS)";
+			productName = "CashTrack (macOS)";
+			productReference = 8BEF9AB1292079F0002BB5AF /* CashTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEF9A9F292079EC002BB5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8BEF9AAA292079F0002BB5AF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8BEF9AB0292079F0002BB5AF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BEF9AA2292079EC002BB5AF /* Build configuration list for PBXProject "CashTrack" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEF9A9E292079EC002BB5AF;
+			packageReferences = (
+				8BEF9AD529209370002BB5AF /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+			);
+			productRefGroup = 8BEF9AAC292079F0002BB5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEF9AAA292079F0002BB5AF /* CashTrack (iOS) */,
+				8BEF9AB0292079F0002BB5AF /* CashTrack (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEF9AA9292079F0002BB5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEF9AB8292079F0002BB5AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEF9AAF292079F0002BB5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEF9AB9292079F0002BB5AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEF9AA7292079F0002BB5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9719FC29399FC0006D042A /* AddTransactionView.swift in Sources */,
+				8BEF9AC629208436002BB5AF /* TransactionModel.swift in Sources */,
+				8BEF9ADC29209DC3002BB5AF /* navBar.swift in Sources */,
+				8BEF9AB6292079F0002BB5AF /* ContentView.swift in Sources */,
+				8BEF9AC329207DE1002BB5AF /* Extensions.swift in Sources */,
+				8BEF9AD329208975002BB5AF /* TransactionRow.swift in Sources */,
+				8BEF9AB4292079F0002BB5AF /* CashTrackApp.swift in Sources */,
+				8BEF9AD92920952A002BB5AF /* TransactionListViewModel.swift in Sources */,
+				8BEF9ACD2920867C002BB5AF /* Preview Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEF9AAD292079F0002BB5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9719FD29399FC0006D042A /* AddTransactionView.swift in Sources */,
+				8BEF9AC729208436002BB5AF /* TransactionModel.swift in Sources */,
+				8BEF9ADD29209DC3002BB5AF /* navBar.swift in Sources */,
+				8BEF9AB7292079F0002BB5AF /* ContentView.swift in Sources */,
+				8BEF9AC429207DE1002BB5AF /* Extensions.swift in Sources */,
+				8BEF9AD429208975002BB5AF /* TransactionRow.swift in Sources */,
+				8BEF9AB5292079F0002BB5AF /* CashTrackApp.swift in Sources */,
+				8BEF9ADA2920952A002BB5AF /* TransactionListViewModel.swift in Sources */,
+				8BEF9ACE2920867C002BB5AF /* Preview Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8BEF9ABA292079F0002BB5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEF9ABB292079F0002BB5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8BEF9ABD292079F0002BB5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harding-University.CashTrack";
+				PRODUCT_NAME = CashTrack;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BEF9ABE292079F0002BB5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harding-University.CashTrack";
+				PRODUCT_NAME = CashTrack;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEF9AC0292079F0002BB5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harding-University.CashTrack";
+				PRODUCT_NAME = CashTrack;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8BEF9AC1292079F0002BB5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Harding-University.CashTrack";
+				PRODUCT_NAME = CashTrack;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEF9AA2292079EC002BB5AF /* Build configuration list for PBXProject "CashTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEF9ABA292079F0002BB5AF /* Debug */,
+				8BEF9ABB292079F0002BB5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEF9ABC292079F0002BB5AF /* Build configuration list for PBXNativeTarget "CashTrack (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEF9ABD292079F0002BB5AF /* Debug */,
+				8BEF9ABE292079F0002BB5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEF9ABF292079F0002BB5AF /* Build configuration list for PBXNativeTarget "CashTrack (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEF9AC0292079F0002BB5AF /* Debug */,
+				8BEF9AC1292079F0002BB5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BEF9AD529209370002BB5AF /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BEF9AD629209370002BB5AF /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BEF9AD529209370002BB5AF /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8BEF9A9F292079EC002BB5AF /* Project object */;
+}
